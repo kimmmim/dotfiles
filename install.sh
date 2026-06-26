@@ -27,7 +27,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # =================================================================
 echo "核心依賴庫..."
 # 備註：Codespaces 預設是一個全域環境，可以直接用 uv pip install 幫全域塞入常用庫
-uv pip install --system dotenv openai langchain langgraph qwen-agent csv os math datetime numpy pandas matplotlib yfinance sysseaborn 
+uv pip install --system dotenv openai langchain langgraph qwen-agent numpy pandas matplotlib yfinance requests seaborn 
 
 # =================================================================
 # 4. 配置 Terminal 終端機快捷鍵 (Alias)
